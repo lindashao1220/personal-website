@@ -1,0 +1,45 @@
+baseURL: ""
+languageCode: en-us
+title: Yanrui Shao
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: 'Howdy!'
+    Content: 'Hello 你好, I am Linda, currently based in Shanghai. I am a web developer, creative designer, and student studying at NYUSH. I am interested in design because I believe creating an intuitive experience in the product is important. People are already on the day-to-day struggle a lot in their life, but being able to design the moment of eureka for people and allowing them to have a moment to clear their minds is what inspires my work.'
+
+  socialIcons:
+    - name: facebook
+      url: 'https://facebook.com/'
+    - name: twitter
+      url: 'https://twitter.com/'
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowShareButton: true
+
+menu:
+  main: 
+    - identifier: aboutme;
+      name: About me
+      url: /aboutme/
+      weight: 10
+    - identifier: projects;
+      name: Projects
+      url: /projects/
+      weight: 10
+    - identifier: experiences;
+      name: Experiences
+      url: /experiences/
+      weight: 10
+    - identifier: archives;
+      name: Archives
+      url: /archives/
+      weight: 30
+    
+    
+  
